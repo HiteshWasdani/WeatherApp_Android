@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/cityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jaipur, India"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15sp"
+        android:textColor="#121111"/>
+
+    <TextView
+        android:id="@+id/tempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cityTextView"
+        android:layout_marginStart="-24dp"
+        android:layout_marginTop="29dp"
+        android:layout_toEndOf="@+id/minTempTextView1"
+        android:text="11.11 C"
+        android:textColor="#6c5dd2"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/windTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tempTextView"
+        android:layout_toRightOf="@+id/windTextView1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="41dp"
+        android:textColor="#121111"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/conditionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/windTextView"
+        android:layout_toRightOf="@+id/conditionTextView1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#121111"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pressureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conditionTextView"
+        android:layout_toRightOf="@+id/pressureTextView1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#121111"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/humidityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pressureTextView"
+        android:layout_toRightOf="@+id/humidityTextView1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#121111"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/minTempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/humidityTextView"
+        android:layout_toRightOf="@+id/minTempTextView1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#121111"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/maxTempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/minTempTextView"
+        android:layout_toRightOf="@+id/maxTempTextView1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#121111"
+        android:textSize="20sp" />
+
+
+
+    <TextView
+        android:id="@+id/windTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tempTextView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="41dp"
+        android:text="Wind             :"
+        android:textColor="#121111"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/conditionTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/windTextView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Condition     :"
+        android:textColor="#121111"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pressureTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conditionTextView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Pressure      :"
+        android:textColor="#121111"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/humidityTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pressureTextView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Humdity       :"
+        android:textColor="#121111"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/minTempTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/humidityTextView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Min Temp.    :"
+        android:textColor="#121111"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/maxTempTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/minTempTextView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Max Temp.   :"
+        android:textColor="#121111"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
